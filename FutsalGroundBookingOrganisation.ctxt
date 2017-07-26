@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=nameOfFutsalGroundBookingOrganisation\ nameOfFutsalGround\ oneHourRate
+comment0.target=void\ addFutsalGround(java.lang.String,\ java.lang.String,\ double)
+comment0.text=\r\n\ method\ addFutsalGround\ is\ declared\r\n\ it\ takes\ 3\ parameters\r\n\ it\ adds\ a\ new\ object\ of\ FutsalGround\ to\ the\ list\r\n
+comment1.params=indexNo
+comment1.target=void\ removeFutsalGround(int)
+comment1.text=\r\n\ method\ removeFutsalGround\ is\ declared\r\n\ takes\ one\ parameter,\ the\ index\ no,\ \r\n\ which\ is\ the\ position\ in\ the\ array\ list\ of\ the\ object\ to\ be\ removed\r\n\ provides\ suitable\ error\ message\ if\ any\ error\ occurs\r\n
+comment2.params=indexNo\ clientName\ clientNo\ bookingDate\ clientType\ durationTime
+comment2.target=void\ bookingRecord(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.text=\r\n\ method\ bookingRecord\ is\ declared\r\n\ takes\ 5\ parameters\r\n\ calls\ the\ method\ in\ FutsalGround\ class\ to\ book\ futsal\ ground\ for\ the\ client\r\n\ it\ stores\ the\ record\ in\ the\ index\ no\ of\ the\ array\ list\r\n\ provides\ suitable\ error\ message\ if\ index\ number\ is\ not\ valid\r\n
+comment3.params=indexNo
+comment3.target=void\ freeFutsalGround(int)
+comment3.text=\r\n\ method\ freeFutsalGround\ is\ declared\r\n\ takes\ index\ number\ as\ parameter\r\n\ it\ calls\ the\ method\ in\ the\ FutsalGround\ class\ which\ makes\ futsal\ ground\ free\r\n\ it\ makes\ ground\ free\ in\ the\ index\ number\ of\ the\ array\ list\ provided\ by\ user\r\n\ provides\ suitable\ error\ message\ if\ the\ index\ number\ is\ invalid\r\n
+comment4.params=
+comment4.target=void\ listAvailableForBooking()
+comment4.text=\r\n\ method\ listAvailableForBooking\ is\ declared\r\n\ list\ all\ futsal\ ground\ in\ the\ array\ list\r\n\ that\ are\ currently\ available\ for\ booking\ \r\n\ method\ from\ FutsalGround\ is\ called\ which\ displays\ the\ information\ of\ futsal\ ground\r\n
+comment5.params=maxHourlyRate\ nameOfFutsalGround
+comment5.target=void\ searchList(double,\ java.lang.String)
+comment5.text=\r\nmethod\ searchList\ is\ declared\r\ntakes\ 3\ parameters\r\nsearch\ the\ futsal\ ground\ which\ are\ currently\ available\r\nif\ the\ condition\ matches\ with\ search\ term\ then\r\nit\ calls\ the\ method\ of\ FutsalGround\ which\ displays\ the\ description\ of\ futsal\ ground\r\nthen\ ends\ the\ search\r\ndisplay\ suitable\ message\ if\ any\ record\ does\ not\ match\ with\ the\ search\ term\r\n
+numComments=6
